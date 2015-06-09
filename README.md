@@ -1,4 +1,4 @@
-# Conference Tracker
+[![Build Status](https://travis-ci.org/bamos/conference-tracker.svg)](https://travis-ci.org/bamos/conference-tracker)
 
 This repository contains my minimal-maintenance conference tracker.
 
