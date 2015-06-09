@@ -14,32 +14,18 @@ today = dt.datetime.today().date()
 
 def getExpectedField(yaml, field):
     if field not in yaml:
-        print("Error: {} not in {}.".format(yaml, field))
+        print("Error: field '{}' not in {}.".format(field, yaml))
         sys.exit(-1)
     return yaml[field]
-
-
-class Event:
-    def __init__(self, yaml):
-        self.date = getExpectedField(yaml, 'date')
-        if 'note' in yaml:
-            self.note = yaml['note']
-        else:
-            self.note = None
 
 
 class Conference:
     def __init__(self, yaml, group):
         self.group = group
         self.title = getExpectedField(yaml, 'title')
-        self.events = [Event(eYaml)
-                       for eYaml in getExpectedField(yaml, 'events')]
-        self.url = yaml['url']
-        upcomingEvents = [e for e in self.events if e.date > today]
-        if len(upcomingEvents) > 0:
-            self.upcoming = min(upcomingEvents, key=attrgetter('date'))
-        else:
-            self.upcoming = None
+        self.date = getExpectedField(yaml, 'date')
+        self.url = getExpectedField(yaml, 'url')
+        self.upcoming = self.date > today
 
     def __repr__(self):
         return self.title
@@ -76,16 +62,11 @@ if __name__ == '__main__':
     outdated = list(chain.from_iterable(cg.outdated for cg in confGroups))
 
     print("\n# Upcoming conferences.")
-    for conf in sorted(upcoming, key=attrgetter('upcoming.date')):
-        print("+ {}".format(conf.title))
-        note = conf.upcoming.note
-        date = conf.upcoming.date
-        if note:
-            print("    + {} - {}".format(note, date))
-        else:
-            print("    + {}".format(date))
+    for conf in sorted(upcoming, key=attrgetter('date')):
+        print("+ [{}] {}".format(conf.group, conf.title))
+        print("    + {}".format(conf.date))
         print("    + {}".format(conf.url))
 
     print("\n\n# Outdated information.")
     for conf in outdated:
-        print("+ {}".format(conf.title))
+        print("+ [{}] {}".format(conf.group, conf.title))
