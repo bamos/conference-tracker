@@ -61,7 +61,7 @@ if __name__ == '__main__':
     upcoming = list(chain.from_iterable(cg.upcoming for cg in confGroups))
     outdated = list(chain.from_iterable(cg.outdated for cg in confGroups))
 
-    print("\n# Upcoming conferences.")
+    print("# Upcoming conferences.")
     for conf in sorted(upcoming, key=attrgetter('date')):
         print("+ [{}] {}".format(conf.group, conf.title))
         print("    + {}".format(conf.date))
