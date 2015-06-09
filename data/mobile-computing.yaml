@@ -1,0 +1,11 @@
+title: Mobile Computing
+conferences:
+  - title: HotMobile
+    url: http://www.hotmobile.org
+    date: 2015-02-12
+  - title: MobiSys
+    url: http://www.sigmobile.org/mobisys
+    date: 2015-05-18
+  - title: MobiCom
+    url: http://www.sigmobile.org/mobicom/
+    date: 2015-09-06

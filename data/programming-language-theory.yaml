@@ -1,0 +1,11 @@
+title: Programming Language Theory
+conferences:
+  - title: "ICFP: Functional Programming"
+    url: http://www.icfpconference.org/icfp2015/index.html
+    date: 2015-08-31
+  - title: "POPL: Principles of Programming Languages"
+    url: http://conf.researchr.org/home/POPL-2016
+    date: 2016-01-20
+  - title: "PLDI: Programming Language Design and Implementation"
+    url: http://www.sigplan.org/Conferences/PLDI/
+    date: 2015-06-13
