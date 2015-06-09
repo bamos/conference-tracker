@@ -54,6 +54,7 @@ if __name__ == '__main__':
     parser.add_argument('--dataDir', type=str,
                         help="Directory of YAML conference data. "
                         "Defaults to '<conference tracker>/data'",
+                        metavar="DIR",
                         default="{}/data".format(myDir))
     args = parser.parse_args()
 
