@@ -71,3 +71,4 @@ if __name__ == '__main__':
     print("\n\n# Outdated information.")
     for conf in outdated:
         print("+ [{}] {}".format(conf.group, conf.title))
+        print("    + {}".format(conf.url))
