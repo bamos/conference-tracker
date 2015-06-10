@@ -25,7 +25,6 @@ class Conference:
         self.title = getExpectedField(yaml, 'title')
         self.date = getExpectedField(yaml, 'date')
         self.url = getExpectedField(yaml, 'url')
-        self.upcoming = self.date > today
 
     def __repr__(self):
         return self.title
@@ -36,8 +35,11 @@ class ConferenceGroup:
         self.title = getExpectedField(yaml, 'title')
         self.conferences = [Conference(c, self.title)
                             for c in getExpectedField(yaml, 'conferences')]
-        self.upcoming = [c for c in self.conferences if c.upcoming]
-        self.outdated = [c for c in self.conferences if not c.upcoming]
+        self.upcoming = [c for c in self.conferences if c.date > today]
+        self.week = [c for c in self.conferences
+                     if 0 <= (today - c.date).days <= 6]
+        self.outdated = [c for c in self.conferences
+                         if (today - c.date).days > 6]
 
     def __repr__(self):
         return "{}: {}".format(self.title, self.conferences)
@@ -61,14 +63,25 @@ if __name__ == '__main__':
     confGroups = list(iterGroups(args.dataDir))
     upcoming = list(chain.from_iterable(cg.upcoming for cg in confGroups))
     outdated = list(chain.from_iterable(cg.outdated for cg in confGroups))
+    week = list(chain.from_iterable(cg.week for cg in confGroups))
 
-    print("# Upcoming conferences.")
+    print("# Conferences this week.")
+    for conf in week:
+        print("+ [{}] {}".format(conf.group, conf.title))
+        print("    + {}".format(conf.url))
+        print("    + {}".format(conf.date))
+
+    print("\n\n# Upcoming conferences.")
     for conf in sorted(upcoming, key=attrgetter('date')):
         print("+ [{}] {}".format(conf.group, conf.title))
-        print("    + {}".format(conf.date))
         print("    + {}".format(conf.url))
+        print("    + {}".format(conf.date))
 
-    print("\n\n# Outdated information.")
+    print("\n\n# Past conferences. Update data.")
     for conf in outdated:
         print("+ [{}] {}".format(conf.group, conf.title))
         print("    + {}".format(conf.url))
+
+    print("\n\n")
+    print("Powered by https://github.com/bamos/conference-tracker")
+    print("Crafted by Brandon Amos: http://bamos.github.io")
