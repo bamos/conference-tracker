@@ -6,6 +6,9 @@ conferences:
   - title: PyCon
     url: http://us.pycon.org/2015/
     date: 2015-04-08
+  - title: SciPy
+    url: http://conference.scipy.org/
+    date: 2015-07-06
   - title: Strange Loop
     url: https://thestrangeloop.com/
     date: 2015-09-24
