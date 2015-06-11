@@ -27,5 +27,6 @@ I'm happy to accept pull requests with updated data.
 If you want to track yours by adding/removing conferences,
 please fork this repo.
 
-# Lists of Conferences
+# Conference Lists
 + [Wikipedia](https://en.wikipedia.org/wiki/List_of_computer_science_conferences)
++ [RichardLitt/awesome-conferences](https://github.com/RichardLitt/awesome-conferences)
