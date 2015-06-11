@@ -78,9 +78,10 @@ if __name__ == '__main__':
         print("    + {}".format(conf.date))
 
     print("\n\n# Past conferences. Update data.")
-    for conf in outdated:
+    for conf in sorted(outdated, key=attrgetter('date'), reverse=True):
         print("+ [{}] {}".format(conf.group, conf.title))
         print("    + {}".format(conf.url))
+        print("    + {}".format(conf.date))
 
     print("\n\n")
     print("Powered by https://github.com/bamos/conference-tracker")
