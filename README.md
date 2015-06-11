@@ -18,7 +18,8 @@ and add reminders when I need to add next year's conference.
 The Python source in [report.py](report.py) generates a plaintext
 report from the [YAML data](./data).
 I have a [Cron](https://en.wikipedia.org/wiki/Cron) job send
-weekly emails with [email-report.sh](email-report.sh).
+weekly emails with [email-report.sh](email-report.sh)
+and [mutt](http://www.mutt.org/).
 
 # Adding and Updating Data
 As conferences pass and the data becomes outdated,
