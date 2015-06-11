@@ -1,4 +1,4 @@
-[Subscribe for Weekly Emails](https://groups.google.com/forum/#!forum/cs-conference-tracker).
+**[Subscribe for Weekly Emails](https://groups.google.com/forum/#!forum/cs-conference-tracker)**
 
 ---
 
@@ -6,6 +6,9 @@
 
 This repository contains my minimal-maintenance conference tracker,
 which contains my opinionated list of CS conferences I track.
+I find this slightly easier than keeping the dates on Google Calendar
+because I can glance at the entire list, keep track of URLs,
+and add reminders when I need to add next year's conference.
 
 ![](screenshot.png)
 
