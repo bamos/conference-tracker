@@ -1,5 +1,7 @@
 **[Subscribe for Weekly Emails](https://groups.google.com/forum/#!forum/cs-conference-tracker)**
 
+Crafted by [Brandon Amos](http://bamos.github.io).
+
 ---
 
 [![Build Status](https://travis-ci.org/bamos/conference-tracker.svg)](https://travis-ci.org/bamos/conference-tracker)
