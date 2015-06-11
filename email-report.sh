@@ -1,4 +1,5 @@
 #!/usr/bin/bash
 
 cd $(dirname $0)
-./report.py | mutt bdamos@vt.edu -s "Conference Status for $(date +%Y-%m-%d)"
+./report.py | mutt cs-conference-tracker@googlegroups.com \
+  -s "Conference Status for $(date +%Y-%m-%d)"
