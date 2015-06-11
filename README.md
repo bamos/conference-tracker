@@ -1,9 +1,11 @@
+[Subscribe for Weekly Emails](https://groups.google.com/forum/#!forum/cs-conference-tracker).
+
+---
+
 [![Build Status](https://travis-ci.org/bamos/conference-tracker.svg)](https://travis-ci.org/bamos/conference-tracker)
 
 This repository contains my minimal-maintenance conference tracker,
 which contains my opinionated list of CS conferences I track.
-You can subscribe to the weekly emails
-on the [Google Group](https://groups.google.com/forum/#!forum/cs-conference-tracker).
 
 ![](screenshot.png)
 
