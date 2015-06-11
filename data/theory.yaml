@@ -1,0 +1,11 @@
+title: Algorithms and Theory
+conferences:
+  - title: "STOC: Symposium on Theory of Computing"
+    url: http://acm-stoc.org/
+    date: 2015-06-15
+  - title: "SODA: Symposium on Discrete Algorithms"
+    url: https://www.siam.org/meetings/da16/
+    date: 2016-01-10
+  - title: "SoCG: Symposium on Computational Geometry"
+    url: http://www.win.tue.nl/SoCG2015/
+    date: 2015-06-22

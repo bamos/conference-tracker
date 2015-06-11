@@ -1,0 +1,8 @@
+title: Networking
+conferences:
+  - title: "SIGCOMM: Communication"
+    url: http://www.sigcomm.org/
+    date: 2015-08-17
+  - title: "NSDI: Networked Systems Design and Implementation"
+    url: https://www.usenix.org/conference/nsdi16
+    date: 2015-03-16

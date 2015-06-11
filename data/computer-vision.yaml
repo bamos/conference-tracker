@@ -6,3 +6,6 @@ conferences:
   - title: ICCV
     url: http://pamitc.org/iccv15/
     date: 2015-12-13
+  - title: ECCV
+    url: http://eccv2014.org/
+    date: 2014-09-06
