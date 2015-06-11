@@ -6,8 +6,8 @@ Crafted by [Brandon Amos](http://bamos.github.io).
 
 [![Build Status](https://travis-ci.org/bamos/conference-tracker.svg)](https://travis-ci.org/bamos/conference-tracker)
 
-This repository contains my minimal-maintenance conference tracker,
-which contains my opinionated list of CS conferences I track.
+This repository contains my minimal-maintenance conference tracker
+and an opinionated list of CS conferences.
 I find this slightly easier than keeping the dates on Google Calendar
 because I can glance at the entire list, keep track of URLs,
 and add reminders when I need to add next year's conference.
@@ -26,7 +26,6 @@ As conferences pass and the data becomes outdated,
 I'm happy to accept pull requests with updated data.
 If you want to track yours by adding/removing conferences,
 please fork this repo.
-I'm happy to include a list of forks here.
 
 # Lists of Conferences
 + [Wikipedia](https://en.wikipedia.org/wiki/List_of_computer_science_conferences)
