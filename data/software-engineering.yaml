@@ -3,3 +3,6 @@ conferences:
   - title: ICSE
     url: http://www.icse-conferences.org/
     date: 2016-05-14
+  - title: OSCON (O'Reilly Open Source Convention)
+    url: http://www.oscon.com/open-source-2015
+    date: 2015-07-20
