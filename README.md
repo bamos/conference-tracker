@@ -30,3 +30,4 @@ please fork this repo.
 # Conference Lists
 + [Wikipedia](https://en.wikipedia.org/wiki/List_of_computer_science_conferences)
 + [RichardLitt/awesome-conferences](https://github.com/RichardLitt/awesome-conferences)
++ [WikiCFP: CS](http://www.wikicfp.com/cfp/call?conference=computer%20science)
