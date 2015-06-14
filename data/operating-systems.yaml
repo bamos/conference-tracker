@@ -1,11 +1,11 @@
 title: Operating Systems
 conferences:
   - title: "SOSP: Symposium on Operating Systems Principles"
-    url: http://sigops.org/sosp/sosp13/
-    date: 2013-11-03
+    url: http://www.ssrc.ucsc.edu/sosp15/
+    date: 2015-10-04
   - title: "OSDI: Operating Systems Design and Implementation"
     url: https://www.usenix.org/conferences/byname/179
-    date: 2014-10-06
+    date: 2016-11-02
   - title: EuroSys
     url: http://eurosys16.doc.ic.ac.uk/
     date: 2016-04-18

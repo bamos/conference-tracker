@@ -1,11 +1,11 @@
 title: Machine Learning and AI
 conferences:
   - title: "AAAI: Association for the Advancement of AI"
-    url: http://www.aaai.org/Conferences/AAAI/aaai15.php
-    date: 2015-01-25
+    url: http://www.aaai.org/Conferences/AAAI/aaai16.php
+    date: 2016-02-12
   - title: "AAMAS: Autonomous Agents and Multiagent Systems"
-    url: www.aamas2015.com
-    date: 2015-04-04
+    url: http://sis.smu.edu.sg/aamas2016
+    date: 2016-05-09
   - title: "IJCAI: Joint Conferences on AI"
     url: http://ijcai.org/
     date: 2015-07-25
@@ -13,8 +13,8 @@ conferences:
     url: http://icml.cc/2015/
     date: 2015-07-06
   - title: Learning@Scale
-    url: http://learningatscale.acm.org/las2015/
-    date: 2015-03-14
+    url: http://learningatscale.acm.org/las2016/
+    date: 2016-04-25
   - title: "NIPS: Neural Information Processing Systems"
     url: https://nips.cc/
     date: 2015-12-07
