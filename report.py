@@ -65,7 +65,7 @@ if __name__ == '__main__':
     outdated = list(chain.from_iterable(cg.outdated for cg in confGroups))
     week = list(chain.from_iterable(cg.week for cg in confGroups))
 
-    print("# Conferences this week.")
+    print("# Conferences this past week.")
     for conf in week:
         print("+ [{}] {}".format(conf.group, conf.title))
         print("    + {}".format(conf.url))
