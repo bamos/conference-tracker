@@ -6,6 +6,9 @@ conferences:
   - title: "AAMAS: Autonomous Agents and Multiagent Systems"
     url: http://sis.smu.edu.sg/aamas2016
     date: 2016-05-09
+  - title: "IJCNN: Neural Networks"
+    url: http://www.ijcnn.org/
+    date: 2015-07-12
   - title: "IJCAI: Joint Conferences on AI"
     url: http://ijcai.org/
     date: 2015-07-25
