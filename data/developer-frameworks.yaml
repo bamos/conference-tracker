@@ -15,3 +15,6 @@ conferences:
   - title: Write the Docs
     url: http://www.writethedocs.org/conf/na/2015/
     date: 2015-05-17
+  - title: Lua Workshop
+    url: http://luastockholm2015.se/
+    date: 2015-10-15
