@@ -6,9 +6,6 @@ conferences:
   - title: "AAMAS: Autonomous Agents and Multiagent Systems"
     url: http://sis.smu.edu.sg/aamas2016
     date: 2016-05-09
-  - title: "IJCNN: Neural Networks"
-    url: http://www.ijcnn.org/
-    date: 2015-07-25
   - title: "IJCAI: Joint Conferences on AI"
     url: http://ijcai.org/
     date: 2016-07-09
@@ -21,3 +18,11 @@ conferences:
   - title: "NIPS: Neural Information Processing Systems"
     url: https://nips.cc/
     date: 2015-12-07
+  - title: "WCCI: World Congress on Computational Intelligence"
+    url: http://http://www.wcci2016.org/
+    date: 2016-07-25
+
+# Part of WCCI
+# - title: "IJCNN: Neural Networks"
+#   url: http://www.ijcnn.org/
+#   date: 2015-07-25
