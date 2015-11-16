@@ -9,6 +9,9 @@ conferences:
   - title: "IJCAI: Joint Conferences on AI"
     url: http://ijcai.org/
     date: 2016-07-09
+  - title: "ICLR: Learning Representations"
+    url: http://www.iclr.cc/doku.php
+    date: 2016-05-02
   - title: ICML
     url: http://icml.cc/2015/
     date: 2015-06-19
