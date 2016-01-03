@@ -13,14 +13,14 @@ conferences:
     url: http://www.iclr.cc/doku.php
     date: 2016-05-02
   - title: ICML
-    url: http://icml.cc/2015/
-    date: 2015-06-19
+    url: http://icml.cc/2016/
+    date: 2016-06-19
   - title: Learning@Scale
     url: http://learningatscale.acm.org/las2016/
     date: 2016-04-25
   - title: "NIPS: Neural Information Processing Systems"
     url: https://nips.cc/
-    date: 2015-12-07
+    date: 2016-12-04
   - title: "WCCI: World Congress on Computational Intelligence"
     url: http://http://www.wcci2016.org/
     date: 2016-07-25

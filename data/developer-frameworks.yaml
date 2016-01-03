@@ -1,20 +1,14 @@
 title: Developer and Frameworks
 conferences:
-  - title: Scala Days NY
-    url: http://scaladays.org/
-    date: 2016-05-09
   - title: PyCon
     url: http://us.pycon.org/2016/
-    date: 2015-05-28
+    date: 2016-05-28
   - title: SciPy
     url: http://conference.scipy.org/
     date: 2015-07-06
   - title: Strange Loop
     url: https://thestrangeloop.com/
     date: 2015-09-24
-  - title: Write the Docs
-    url: http://www.writethedocs.org/conf/na/2015/
-    date: 2015-05-17
-  - title: Lua Workshop
-    url: http://luastockholm2015.se/
-    date: 2015-10-15
+  - title: Write The Docs
+    url: http://www.writethedocs.org/
+    date: 2016-05-22
