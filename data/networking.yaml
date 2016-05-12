@@ -4,8 +4,5 @@ conferences:
     url: http://www.sigcomm.org/
     date: 2016-08-22
   - title: "NSDI: Networked Systems Design and Implementation"
-    url: https://www.usenix.org/conference/nsdi16
-    date: 2016-03-16
-  - title: "IMC: Internet Measurement Conference"
-    url: https://conferences.sigcomm.org/imc/2016
-    date: 2016-11-14
+    url: https://www.usenix.org/conference/nsdi17
+    date: 2017-03-27

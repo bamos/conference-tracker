@@ -1,14 +1,11 @@
 title: Machine Learning and AI
 conferences:
   - title: "AAAI: Association for the Advancement of AI"
-    url: http://www.aaai.org/Conferences/AAAI/aaai16.php
-    date: 2016-02-12
-  - title: "AAMAS: Autonomous Agents and Multiagent Systems"
-    url: http://sis.smu.edu.sg/aamas2016
-    date: 2016-05-09
+    url: http://www.aaai.org/Conferences/AAAI/aaai17.php
+    date: 2017-02-14
   - title: "IJCAI: Joint Conferences on AI"
     url: http://ijcai.org/
-    date: 2016-07-09
+    date: 2017-08-19
   - title: "ICLR: Learning Representations"
     url: http://www.iclr.cc/doku.php
     date: 2016-05-02

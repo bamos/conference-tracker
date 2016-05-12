@@ -6,6 +6,3 @@ conferences:
   - title: "OSDI: Operating Systems Design and Implementation"
     url: https://www.usenix.org/conferences/byname/179
     date: 2016-11-02
-  - title: EuroSys
-    url: http://eurosys16.doc.ic.ac.uk/
-    date: 2016-04-18
