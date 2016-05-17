@@ -21,6 +21,9 @@ conferences:
   - title: "WCCI: World Congress on Computational Intelligence"
     url: http://http://www.wcci2016.org/
     date: 2016-07-25
+  - title: "Uncertainty in Artificial Intelligence"
+    url: http://www.auai.org/uai2016/index.php
+    date: 2016-06-25
 
 # Part of WCCI
 # - title: "IJCNN: Neural Networks"
