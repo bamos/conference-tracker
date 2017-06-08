@@ -1,8 +1,20 @@
 title: Machine Learning and AI
 conferences:
+  - title: "NIPS: Neural Information Processing Systems"
+    url: https://nips.cc/
+    date: 2017-12-04
+  - title: "ECML-PKDD: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases"
+    url: http://ecmlpkdd2017.ijs.si/
+    date: 2017-09-18
+  - title: "ICML: International Conference on Machine Learning"
+    url: https://2017.icml.cc/
+    date: 2017-08-07
   - title: "AAAI: Association for the Advancement of AI"
     url: http://www.aaai.org/Conferences/AAAI/aaai17.php
     date: 2017-02-14
+  - title: "ICLR: Learning Representations"
+    url: http://www.iclr.cc/doku.php?id=ICLR2017:main
+    date: 2017-04-24
   - title: "IJCAI: Joint Conferences on AI"
     url: http://ijcai.org/
     date: 2017-08-19
